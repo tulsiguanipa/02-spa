@@ -9,10 +9,7 @@ import { HeroesService } from '../../servicos/heroes.service';
   templateUrl: './heroe.component.html'
 })
 export class HeroeComponent {
-
   heroe:any = {};
-
-  
 
   constructor( private activatedRoute: ActivatedRoute,
                 private _heroeService: HeroesService
@@ -25,7 +22,5 @@ export class HeroeComponent {
     });
 
   }
-
-  
 
 }
