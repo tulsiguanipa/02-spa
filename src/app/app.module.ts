@@ -17,6 +17,8 @@ import { HeroesComponent } from './components/heroes/heroes.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeroeComponent } from './components/heroe/heroe.component';
 import { BusquedaComponent } from './components/busqueda/busqueda.component';
+import { HeoreTarjetaComponent } from './components/heore-tarjeta/heore-tarjeta.component';
+
 
 
 @NgModule({
@@ -29,7 +31,7 @@ import { BusquedaComponent } from './components/busqueda/busqueda.component';
     FooterComponent,
     HeroeComponent,
     BusquedaComponent,
-
+    HeoreTarjetaComponent,
   ],
   imports: [
     BrowserModule,

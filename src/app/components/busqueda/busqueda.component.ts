@@ -4,6 +4,7 @@ import { HeroesService } from '../../servicos/heroes.service';
 
 
 
+
 @Component({
   selector: 'app-busqueda',
   templateUrl: './busqueda.component.html',
